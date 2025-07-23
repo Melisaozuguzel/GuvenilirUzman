@@ -1,0 +1,293 @@
+.img{
+    padding-left: 20px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    background-color:#ffffff;
+}
+header{
+    display: flex;
+    height: 70px;
+    width: 100px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+/*.hr{
+    padding: 0%;
+}*/
+.başlık{
+    padding-left: 70px;
+    padding-top: 135px;
+    font-size: 40px;
+    font-family: Nunito, sans-serif;
+    color: white;
+    box-sizing:border-box;
+    font-weight:700;
+    height:100.5px;
+    line-height:33.5px;
+    text-align:left;
+  
+
+
+    
+    
+}
+.açıklama{
+    margin-top: 60px;
+    padding-left: 70px;
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Nunito, sans-serif;
+    box-sizing:border-box;
+color:rgb(36, 36, 36);
+display:block;
+font-family:Nunito, sans-serif;
+font-size:25px;
+font-weight:700;
+height:100.5px;
+line-height:33.5px;
+text-align:left;
+text-size-adjust:100%;
+unicode-bidi:isolate;
+user-select:none;
+width:245px;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+-webkit-user-drag:none;
+-webkit-user-modify:read-only;
+    
+}
+.btn{
+    position: absolute;
+    top: 380px;
+    margin-top: 0;
+    margin-left: 110px;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    border-color: #2979ff;
+    cursor: pointer;
+    
+}
+.btn {
+    width: 65px;
+    height: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  color: #1b8bb4;
+  font-size: 20px;
+  font-family: Nunito, sans-serif;font-family: Nunito, sans-serif;
+  padding-top: 13px;
+  padding-left: 30px;
+  padding-bottom: 24px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.hero {
+ 
+  color: white;
+  text-align: center;
+  padding: 2050px 20px 80px 20px;
+  position: relative;
+  overflow: hidden;
+}
+.hero button {
+  margin-top: 10px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  background-color: white;
+ 
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background-color: white;
+}
+.wave {
+  
+  position: absolute;
+  bottom: 10px; /* biraz daha aşağı çekmek için eksi değer */
+  left: 0;
+  width: 100%;
+  height: 120px;
+}
+
+.content {
+  padding: 100px 20px;
+  background-color: white;
+  text-align: center;
+}
+
+section{
+    border-radius: 20px;
+    background-color: #1b8bb4;
+    margin: 0;
+    padding: 0 10px;
+    color: white;
+    height: 600px;
+    justify-content: flex-start;
+    object-fit: cover;
+}
+.görsel{
+    border-radius:60px 90px 60px 30px;
+    overflow: hidden;
+    overflow: initial;
+    display: inline;
+    position: absolute;
+    top: 180px;
+    margin: 0;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    padding-left: 850px;
+    object-fit: cover;
+    justify-content: flex-start;
+ }   
+
+body{
+    margin: 0;
+}
+
+.acklama{
+    padding-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    
+ }  
+   /* padding-top: 120px;
+   padding-left: 800px;
+    background-color: #ffffff;
+    justify-content: right;*/
+ .acklama img{
+    width: 900px;
+    height:500px;
+    padding-left: 20px;
+    padding-top: 45px;
+    object-fit: cover;
+    justify-content: flex-start;
+    border-radius: 50px 90px 60px 30px;
+    
+    
+ }   
+    
+.yazi{ 
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   gap: 5px;
+   padding-top: 37px;
+   
+}
+.yazi p{
+   margin: 0;
+   font-size: 20px;
+   font-family: Nunito, sans-serif;
+   padding-left: 90px;
+   padding-top: 30px;
+}
+h1{
+    box-sizing: border-box;
+color: rgba(36, 36, 36);
+display: block;
+font-family: Nunito, sans-serif;
+font-size:25px;
+font-weight: 700;
+height:30px;
+line-height:30px;
+margin-block-end:21px;
+margin-block-start:0px;
+margin-bottom:21px;
+margin-inline-end:0px;
+margin-inline-start:0px;
+margin-top:0px;
+text-align: left;
+text-size-adjust:100%;
+unicode-bidi:isolate;
+user-select:none;
+width:520px;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+-webkit-user-drag:none;
+-webkit-user-modify:read-only;
+    
+}
+.duzen{
+   /* padding-left: 100px;
+    font-size: 36px;
+    font-family: Nunito, sans-serif;
+    gap: 25px;
+    box-sizing: border-box;*/
+/*color: rgba(36, 36, 36);
+display: block;
+font-family: Nunito, sans-serif;
+font-size:25px;
+font-weight: 700;
+height:30px;
+line-height:30px;
+margin-block-end:21px;
+margin-block-start:0px;
+margin-bottom:21px;
+margin-inline-end:0px;
+margin-inline-start:0px;
+margin-top:0px;
+text-align: left;
+text-size-adjust:100%;
+unicode-bidi:isolate;
+user-select:none;
+width:520px;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+-webkit-user-drag:none;
+-webkit-user-modify:read-only;
+Family name: Nunito ExtraLight;
+PostScript name: Nunito-ExtraLight-ExtraLight;
+Font origin: Network resource;*/
+box-sizing:border-box;
+color:rgb(36, 36, 36);
+display:block;
+font-family:Nunito, sans-serif;
+font-size:25px;
+font-weight:700;
+height:100.5px;
+line-height:33.5px;
+text-align:left;
+text-size-adjust:100%;
+unicode-bidi:isolate;
+user-select:none;
+width:245px;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+-webkit-user-drag:none;
+-webkit-user-modify:read-only;
+}
+.sart h1{
+   /*font-size: 36px;
+   font-family: Nunito, sans-serif;
+   padding-left: 20px;*/
+       box-sizing: border-box;
+color: rgba(36, 36, 36);
+display: block;
+font-family: Nunito, sans-serif;
+font-size:25px;
+font-weight: 700;
+height:30px;
+line-height:30px;
+margin-block-end:21px;
+margin-block-start:0px;
+margin-bottom:21px;
+margin-inline-end:0px;
+margin-inline-start:0px;
+margin-top:0px;
+text-align: left;
+text-size-adjust:100%;
+unicode-bidi:isolate;
+user-select:none;
+width:520px;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+-webkit-user-drag:none;
+-webkit-user-modify:read-only;
+}
+.sart p,li{
+ font-size: 18px;
+ font-family: Nunito, sans-serif;
+}
