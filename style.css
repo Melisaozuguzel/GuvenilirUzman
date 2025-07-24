@@ -24,35 +24,21 @@ header{
     font-weight:700;
     height:100.5px;
     line-height:33.5px;
-    text-align:left;
-  
-
-
-    
-    
+    text-align:left;  
 }
 .açıklama{
     margin-top: 60px;
-    padding-left: 70px;
-    font-size: 26px;
+    padding-left: 60px;
+    font-size: 22px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-family: Nunito, sans-serif;
     box-sizing:border-box;
-color:rgb(36, 36, 36);
-display:block;
-font-family:Nunito, sans-serif;
-font-size:25px;
-font-weight:700;
+color:white;
+    font-weight:700;
 height:100.5px;
 line-height:33.5px;
 text-align:left;
-text-size-adjust:100%;
-unicode-bidi:isolate;
-user-select:none;
-width:245px;
--webkit-tap-highlight-color:rgba(0, 0, 0, 0);
--webkit-user-drag:none;
--webkit-user-modify:read-only;
+
     
 }
 .btn{
@@ -139,12 +125,13 @@ section{
     top: 180px;
     margin: 0;
     display: flex;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     padding-left: 850px;
     object-fit: cover;
     justify-content: flex-start;
- }   
+   animation: slideInRight 1s ease-out 0.6s forwards;
+}
 
 body{
     margin: 0;
@@ -168,7 +155,7 @@ body{
     padding-top: 45px;
     object-fit: cover;
     justify-content: flex-start;
-    border-radius: 50px 90px 60px 30px;
+    border-radius: 100px 100px 80px 80px;
     
     
  }   
@@ -185,10 +172,12 @@ body{
    margin: 0;
    font-size: 20px;
    font-family: Nunito, sans-serif;
-   padding-left: 90px;
-   padding-top: 30px;
+   padding-left: 60px;
+   padding-top: 10px;
 }
 h1{
+  padding-left: 70px;
+  padding-top: 20px;
     box-sizing: border-box;
 color: rgba(36, 36, 36);
 display: block;
@@ -213,52 +202,30 @@ width:520px;
 -webkit-user-modify:read-only;
     
 }
-.duzen{
-   /* padding-left: 100px;
-    font-size: 36px;
-    font-family: Nunito, sans-serif;
-    gap: 25px;
-    box-sizing: border-box;*/
-/*color: rgba(36, 36, 36);
-display: block;
-font-family: Nunito, sans-serif;
-font-size:25px;
+.rozet{
+  font-family: Nunito, sans-serif;
+  padding-top: 40px;
 font-weight: 700;
 height:30px;
 line-height:30px;
-margin-block-end:21px;
-margin-block-start:0px;
 margin-bottom:21px;
 margin-inline-end:0px;
 margin-inline-start:0px;
 margin-top:0px;
-text-align: left;
-text-size-adjust:100%;
-unicode-bidi:isolate;
-user-select:none;
-width:520px;
--webkit-tap-highlight-color:rgba(0, 0, 0, 0);
--webkit-user-drag:none;
--webkit-user-modify:read-only;
-Family name: Nunito ExtraLight;
-PostScript name: Nunito-ExtraLight-ExtraLight;
-Font origin: Network resource;*/
+
+}
+.duzen{
+padding-top: 0px;
 box-sizing:border-box;
 color:rgb(36, 36, 36);
-display:block;
+display: block;
 font-family:Nunito, sans-serif;
 font-size:25px;
 font-weight:700;
 height:100.5px;
 line-height:33.5px;
-text-align:left;
-text-size-adjust:100%;
-unicode-bidi:isolate;
-user-select:none;
-width:245px;
--webkit-tap-highlight-color:rgba(0, 0, 0, 0);
--webkit-user-drag:none;
--webkit-user-modify:read-only;
+
+
 }
 .sart h1{
    /*font-size: 36px;
